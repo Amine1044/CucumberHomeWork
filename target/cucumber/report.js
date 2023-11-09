@@ -134,7 +134,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1767726800,
+  "duration": 1761302100,
   "status": "passed"
 });
 formatter.scenario({
@@ -256,7 +256,7 @@ formatter.match({
   "location": "StepDefinition.user_is_on_the_techfios_login_page()"
 });
 formatter.result({
-  "duration": 524625500,
+  "duration": 542942600,
   "status": "passed"
 });
 formatter.match({
@@ -273,7 +273,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_the_in_the_field(String,String)"
 });
 formatter.result({
-  "duration": 195714700,
+  "duration": 208009900,
   "status": "passed"
 });
 formatter.match({
@@ -290,7 +290,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_the_in_the_field(String,String)"
 });
 formatter.result({
-  "duration": 63028500,
+  "duration": 68111100,
   "status": "passed"
 });
 formatter.match({
@@ -303,14 +303,14 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 873793600,
+  "duration": 824029700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_should_land_on_Dashboard_page()"
 });
 formatter.result({
-  "duration": 235845200,
+  "duration": 193452500,
   "status": "passed"
 });
 formatter.match({
@@ -323,7 +323,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 1123075500,
+  "duration": 1178085100,
   "status": "passed"
 });
 formatter.match({
@@ -336,7 +336,7 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 284028200,
+  "duration": 247633000,
   "status": "passed"
 });
 formatter.match({
@@ -353,7 +353,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_in_the_field_in_accounts_page(String,String)"
 });
 formatter.result({
-  "duration": 128099900,
+  "duration": 143226100,
   "status": "passed"
 });
 formatter.match({
@@ -370,7 +370,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_in_the_field_in_accounts_page(String,String)"
 });
 formatter.result({
-  "duration": 81373100,
+  "duration": 101198900,
   "status": "passed"
 });
 formatter.match({
@@ -387,7 +387,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_in_the_field_in_accounts_page(String,String)"
 });
 formatter.result({
-  "duration": 103648100,
+  "duration": 81089600,
   "status": "passed"
 });
 formatter.match({
@@ -404,7 +404,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_in_the_field_in_accounts_page(String,String)"
 });
 formatter.result({
-  "duration": 88865700,
+  "duration": 78565700,
   "status": "passed"
 });
 formatter.match({
@@ -421,7 +421,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_in_the_field_in_accounts_page(String,String)"
 });
 formatter.result({
-  "duration": 93191000,
+  "duration": 105565200,
   "status": "passed"
 });
 formatter.match({
@@ -438,7 +438,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_in_the_field_in_accounts_page(String,String)"
 });
 formatter.result({
-  "duration": 105616000,
+  "duration": 94474700,
   "status": "passed"
 });
 formatter.match({
@@ -455,7 +455,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_in_the_field_in_accounts_page(String,String)"
 });
 formatter.result({
-  "duration": 111832200,
+  "duration": 143907000,
   "status": "passed"
 });
 formatter.match({
@@ -468,18 +468,18 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 1279750800,
+  "duration": 1220487300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "duration": 28400,
+  "duration": 692096300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 648785600,
+  "duration": 637549900,
   "status": "passed"
 });
 });

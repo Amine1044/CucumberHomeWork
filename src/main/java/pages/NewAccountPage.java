@@ -61,6 +61,7 @@ public class NewAccountPage extends BasePage{
 		SUBMIT_BUTTON_ELEMENT.click();
 	}
 	public void validateAccountCreation() {
+		waitForVisibility(ACCOUNT_CREATION_TEXT_ELEMENT);
 		Assert.assertEquals("Account Created Successfully", ACCOUNT_CREATION_TEXT_ELEMENT.getText());
 	}
 }
