@@ -112,7 +112,7 @@ public class StepDefinition extends BasePage{
 
 	@Then("^User should be able to validate account created successfully$")
 	public void user_should_be_able_to_validate_account_created_successfully() {
-		
+		newaccountpage.validateAccountCreation();
 	}
 
 
