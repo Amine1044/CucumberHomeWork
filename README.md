@@ -2,7 +2,7 @@
 Home work(Due on 1/21/2023 Saturday 09:00 am CST):
 Automate the following scenario by creating a new feature using Cucumber BDD Framework
 (which was built in class#10 & 11) drive the data from Examples and push the code to your own github/bitbucket repository
- and email the project URL to mdislam@techfios.com
+ and email the project URL to ***********************
 
 Feature: Techfios bank and cash New Account Functionality 
 
