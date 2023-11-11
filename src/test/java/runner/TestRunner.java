@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions (
 		features="classpath:features",
 		glue="steps",// package name 
-	//	tags="@homework",
+		tags="@jdbc",
 		monochrome=true,
 		dryRun=false,
 		plugin= {

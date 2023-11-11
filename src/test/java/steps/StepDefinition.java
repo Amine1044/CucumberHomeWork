@@ -10,6 +10,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pages.BasePage;
 import pages.DashBoardPage;
+import pages.DataBasePage;
 import pages.LoginPage;
 import pages.NewAccountPage;
 
@@ -18,6 +19,7 @@ public class StepDefinition extends BasePage{
 	LoginPage loginpage;
 	DashBoardPage dashboardpage;
 	NewAccountPage newaccountpage;
+	DataBasePage databasepage;
 	int random=BasePage.randomNum();
 	@Before 
 	public void beforeRun(){
@@ -25,7 +27,7 @@ public class StepDefinition extends BasePage{
 		loginpage=PageFactory.initElements(driver, LoginPage.class);
 		dashboardpage=PageFactory.initElements(driver, DashBoardPage.class);
 		newaccountpage=PageFactory.initElements(driver, NewAccountPage.class);
-		
+		databasepage = new DataBasePage();
 	}
 	@After
 	public void afterRun() {
@@ -114,6 +116,20 @@ public class StepDefinition extends BasePage{
 	public void user_should_be_able_to_validate_account_created_successfully() {
 		newaccountpage.validateAccountCreation();
 	}
+	//=================================DATA BASE STEPS =====================================================================
+	@When("^User enters the \"([^\"]*)\" from mysql DB$")
+	public void user_enters_the_from_mysql_DB(String data) {
+		if (data.equalsIgnoreCase("username")) {
+			loginpage.setUserName(databasepage.getDataFromDb("username"));
+			System.out.println("username from DB: " +databasepage.getDataFromDb("username" ));
+		}else if (data.equalsIgnoreCase("password")) {
+			loginpage.setPassword(databasepage.getDataFromDb("password"));
+			System.out.println("password from DB: " +databasepage.getDataFromDb("password"));
+		}else {
+			System.out.println(data +"is not found !!");
+		}
+	}
+
 
 
 
