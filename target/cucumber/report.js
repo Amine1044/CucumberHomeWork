@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2818341100,
+  "duration": 6285278800,
   "status": "passed"
 });
 formatter.scenario({
@@ -53,7 +53,7 @@ formatter.match({
   "location": "StepDefinition.user_is_on_the_techfios_login_page()"
 });
 formatter.result({
-  "duration": 1847553500,
+  "duration": 1194089500,
   "status": "passed"
 });
 formatter.match({
@@ -66,7 +66,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_the_from_mysql_DB(String)"
 });
 formatter.result({
-  "duration": 1294848000,
+  "duration": 685153700,
   "status": "passed"
 });
 formatter.match({
@@ -79,7 +79,7 @@ formatter.match({
   "location": "StepDefinition.user_enters_the_from_mysql_DB(String)"
 });
 formatter.result({
-  "duration": 265985000,
+  "duration": 149716701,
   "status": "passed"
 });
 formatter.match({
@@ -92,18 +92,18 @@ formatter.match({
   "location": "StepDefinition.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 909993300,
+  "duration": 1144250700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_should_land_on_Dashboard_page()"
 });
 formatter.result({
-  "duration": 437445800,
+  "duration": 274010999,
   "status": "passed"
 });
 formatter.after({
-  "duration": 961094200,
+  "duration": 365576500,
   "status": "passed"
 });
 });
